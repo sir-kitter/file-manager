@@ -162,7 +162,11 @@ rl.on('SIGINT', () => rl.close())
         }
       }
     } catch(err) {
-      console.log(strings.errorOperationFailed)
+      if((err instanceof Error) && err.message == strings.errorInvalidInput) {
+        console.log(strings.errorInvalidInput)
+      } else {
+        console.log(strings.errorOperationFailed)
+      }
     }
     
     cwd.print()
