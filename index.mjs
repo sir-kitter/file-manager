@@ -166,4 +166,8 @@ rl.on('SIGINT', () => rl.close())
     }
     
     cwd.print()
+    rl.prompt()
   })
+  .setPrompt('> ')
+
+rl.prompt()
