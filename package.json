@@ -1,0 +1,21 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "rss task 2",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node index.mjs -- --username=sir-kitter",
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sir-kitter/file-manager.git"
+  },
+  "author": "sir kitter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sir-kitter/file-manager/issues"
+  },
+  "homepage": "https://github.com/sir-kitter/file-manager#readme"
+}
